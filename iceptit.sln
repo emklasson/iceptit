@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iceptit", "iceptit\iceptit.vcxproj", "{395DF51B-0DEC-44AB-97DC-143A4A014104}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "get_dll_functions", "get_dll_functions\get_dll_functions.vcxproj", "{DF4694C8-B12D-4B07-AD14-671D2A66D0BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "patch_import", "patch_import\patch_import.vcxproj", "{97FEF32A-5850-4F4E-8D9E-DB5F3FB938EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_iceptit", "test_iceptit\test_iceptit.vcxproj", "{11D44A19-374C-4806-8ECB-3C99B04A1018}"
+	ProjectSection(ProjectDependencies) = postProject
+		{395DF51B-0DEC-44AB-97DC-143A4A014104} = {395DF51B-0DEC-44AB-97DC-143A4A014104}
+		{97FEF32A-5850-4F4E-8D9E-DB5F3FB938EF} = {97FEF32A-5850-4F4E-8D9E-DB5F3FB938EF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{395DF51B-0DEC-44AB-97DC-143A4A014104}.Debug|x86.ActiveCfg = Debug|Win32
+		{395DF51B-0DEC-44AB-97DC-143A4A014104}.Debug|x86.Build.0 = Debug|Win32
+		{395DF51B-0DEC-44AB-97DC-143A4A014104}.Release|x86.ActiveCfg = Release|Win32
+		{395DF51B-0DEC-44AB-97DC-143A4A014104}.Release|x86.Build.0 = Release|Win32
+		{DF4694C8-B12D-4B07-AD14-671D2A66D0BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF4694C8-B12D-4B07-AD14-671D2A66D0BB}.Debug|x86.Build.0 = Debug|Win32
+		{DF4694C8-B12D-4B07-AD14-671D2A66D0BB}.Release|x86.ActiveCfg = Release|Win32
+		{DF4694C8-B12D-4B07-AD14-671D2A66D0BB}.Release|x86.Build.0 = Release|Win32
+		{97FEF32A-5850-4F4E-8D9E-DB5F3FB938EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{97FEF32A-5850-4F4E-8D9E-DB5F3FB938EF}.Debug|x86.Build.0 = Debug|Win32
+		{97FEF32A-5850-4F4E-8D9E-DB5F3FB938EF}.Release|x86.ActiveCfg = Release|Win32
+		{97FEF32A-5850-4F4E-8D9E-DB5F3FB938EF}.Release|x86.Build.0 = Release|Win32
+		{11D44A19-374C-4806-8ECB-3C99B04A1018}.Debug|x86.ActiveCfg = Debug|Win32
+		{11D44A19-374C-4806-8ECB-3C99B04A1018}.Debug|x86.Build.0 = Debug|Win32
+		{11D44A19-374C-4806-8ECB-3C99B04A1018}.Release|x86.ActiveCfg = Release|Win32
+		{11D44A19-374C-4806-8ECB-3C99B04A1018}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72AC720F-CDA7-4FCD-B287-661EFFDACBF1}
+	EndGlobalSection
+EndGlobal
